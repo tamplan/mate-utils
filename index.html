@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>mate-utils Code Analyzer results</title>
+</head>
+<body>
+<h1>
+  <a href="https://github.com/mate-desktop">mate-desktop</a>/<a href="https://github.com/mate-desktop/mate-utils">mate-utils</a> Static analyzer results
+</h1>
+  <a href="https://github.com/mate-desktop/mate-utils" title="Github"><i class="fa fa-github fa-2x"></i>GitHub</a>
+  <a href="https://travis-ci.org/mate-desktop/mate-utils/builds/549182246" title="Travis CI"><img src="https://travis-ci.org/mate-desktop/mate-utils.svg?branch=master" alt="Build Status" /></a>
+<hr/>
+Commit: <a href="https://github.com/mate-desktop/mate-utils/commit/54dc0be9a30cf602a6e692f9d0894f5c9e1ad2cf">54dc0be9a30cf602a6e692f9d0894f5c9e1ad2cf</a><br/>
+Compare: <a href="https://github.com/mate-desktop/mate-utils/compare/"></a><br/>
+Branch: <a href="https://github.com/mate-desktop/mate-utils/tree/clang_doublefree">clang_doublefree</a><br/>
+Time: 2019-06-22 19:56:56+00:00<br/>
+Messages:<br/>
+<pre>
+gsearchtool: clang analyzer: fix double free
+
+Fixes Clang static analyzer warning:
+
+gsearchtool.c:1867:3: warning: Attempt to free released memory
+                g_free (gsearch->command_details->look_in_folder_string);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</pre>
+<hr/>
+<ul>
+<li><a href="2019-06-22-195656-9330-cppcheck@54dc0be9a30c_clang_doublefree">2019-06-22-195656-9330-cppcheck@54dc0be9a30c_clang_doublefree</a></li>
+<li><a href="2019-06-22-195248-9008-1@54dc0be9a30c_clang_doublefree">2019-06-22-195248-9008-1@54dc0be9a30c_clang_doublefree</a></li>
+<li><a href=2019-06-10-143211-6017-cppcheck@34505eb50fb6_master>2019-06-10-143211-6017-cppcheck@34505eb50fb6_master</a></li>
+<li><a href=2019-06-10-142757-8928-1@34505eb50fb6_master>2019-06-10-142757-8928-1@34505eb50fb6_master</a></li>
+<li><a href=2019-05-31-133910-1477-cppcheck@462d587d9c9b_master>2019-05-31-133910-1477-cppcheck@462d587d9c9b_master</a></li>
+<li><a href=2019-05-31-133449-8910-1@462d587d9c9b_master>2019-05-31-133449-8910-1@462d587d9c9b_master</a></li>
+<li><a href=2019-05-29-114105-9328-cppcheck@12585ee55f84_master>2019-05-29-114105-9328-cppcheck@12585ee55f84_master</a></li>
+<li><a href=2019-05-29-113638-8910-1@12585ee55f84_master>2019-05-29-113638-8910-1@12585ee55f84_master</a></li>
+<li><a href=2019-05-29-111155-7654-cppcheck@12585ee55f84_travis-master>2019-05-29-111155-7654-cppcheck@12585ee55f84_travis-master</a></li>
+<li><a href=2019-05-29-110738-8910-1@12585ee55f84_travis-master>2019-05-29-110738-8910-1@12585ee55f84_travis-master</a></li>
+<li><a href=2019-05-15-073539-7156-cppcheck@b789b878de96_master>2019-05-15-073539-7156-cppcheck@b789b878de96_master</a></li>
+<li><a href=2019-05-15-073105-8957-1@b789b878de96_master>2019-05-15-073105-8957-1@b789b878de96_master</a></li>
+<li><a href=2019-05-10-192355-5814-cppcheck@809253cf3b4e_cppcheck-html>2019-05-10-192355-5814-cppcheck@809253cf3b4e_cppcheck-html</a></li>
+<li><a href=2019-05-10-191935-8962-1@809253cf3b4e_cppcheck-html>2019-05-10-191935-8962-1@809253cf3b4e_cppcheck-html</a></li>
+<li><a href=2019-05-07-150602-8961-1@8ef9f0668c38_master>2019-05-07-150602-8961-1@8ef9f0668c38_master</a></li>
+<li><a href=2019-05-06-103533-8961-1@d0a3797e3310_master>2019-05-06-103533-8961-1@d0a3797e3310_master</a></li>
+<li><a href=2019-05-05-151036-8961-1@e7435fff814a_inkscape>2019-05-05-151036-8961-1@e7435fff814a_inkscape</a></li>
+<li><a href=2019-05-05-132029-8959-1@abaf4af1ec75_inkscape>2019-05-05-132029-8959-1@abaf4af1ec75_inkscape</a></li>
+<li><a href=2019-05-05-094910-8961-1@b1ed62c41294_inkscape>2019-05-05-094910-8961-1@b1ed62c41294_inkscape</a></li>
+<li><a href=2019-05-04-094618-9153-1@d77736f4bf5d_master>2019-05-04-094618-9153-1@d77736f4bf5d_master</a></li>
+</ul>
+</body>
+</html>
